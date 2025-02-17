@@ -1,0 +1,225 @@
+/*Css de index*/
+.pagina-index {
+    background: url('../img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Breaking Bad';
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.poster-container {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.poster {
+    width: 100%;
+    height: 100%;
+    border: 10px outset brown;
+    border-radius: 22px;
+    display: block;
+}
+
+.clickable-area {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0); 
+    
+}
+
+.breaking-area {
+    left: 0;
+    width: 50%; 
+}
+
+.bad-area {
+    right: 0;
+    width: 50%; 
+}
+@font-face {
+    font-family: 'Breaking Bad';
+    src: url('fonts/Breaking\ Bad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.quote{
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Breaking Bad';
+}
+
+/*Css de Formulario*/
+.pagina-formulario {
+    background: url('../img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+h1{
+    text-align: center;
+}
+form {
+    background-color: #dde4de;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+fieldset {
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #8b4513;
+}
+
+/*Css de Tabla*/
+.pagina-tabla {
+    background-color: #4a5a2c;
+    color: white;
+    font-family:'Breaking Bad';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+#fondo-tabla{
+    background-color: #0c3e11;
+}
+#div-contenedor{
+    display: block;
+    text-align: center;
+}
+#titulo-tabla{
+    font-size: 100px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+.recuadro {
+    display: inline-block;
+    background-color: #a5c926;
+    color: #34352f;
+    width: 130px;
+    height: 110px;
+    text-align: left;
+}
+#subtitulo {
+    font-size: 18px;
+    color: red;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: normal;
+    text-align: left;
+}
+table{
+    margin: auto;
+    border-spacing: 5px;
+    background-color: #34352f;
+}
+#tabla-1{
+    margin: 30px, auto;
+}
+td{
+    width: 70px;
+    height: 70px; 
+    text-align: center; 
+}
+#tabla-2{
+    margin-top: 30px;
+}
+.celda-1{
+    background-color: #b7db21;
+}
+.celda-2{
+    background-color: #eff6cc;
+}
+.celda-3{
+    background-color: #89a419;
+}
+.celda-4{
+    background-color: #637124;
+}
+.celda-5{
+    background-color: #c5e24a;
+}
+.celda-6{
+    background-color: #bcc49f;
+}
+.celda-7{
+    background-color: #828d4f;
+}
+.celda-8{
+    background-color: #d5e973;
+}
+.celda-9{
+    background-color: #c2c41d;
+}
+.celda-10{
+    background-color: #ab8fcc;
+}
+.texto-grande{
+    font-size: 40px;
+    font-weight: bold;
+}
+.texto-pequeño{
+    font-size: 10px;
+}
